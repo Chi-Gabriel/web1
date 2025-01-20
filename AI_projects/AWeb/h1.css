@@ -1,0 +1,54 @@
+p {
+  color: red;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+table {
+  border: 1px solid blue;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+ul ul {
+  color: green;
+}
+
+a[href="https://www.google.com"] {
+  color: green;
+}
+
+#submit {
+  background-color: green;
+}
+
+#submit:hover {
+  background-color: yellow;
+}
+
+img:hover {
+  transition-duration: 2s;
+  width: 40%;
+}
+
+form {
+  display: block;
+  background-color: rgb(106, 127, 139);
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: rgb(182, 48, 182);
+  }
+}
+@media (max-width: 599px) {
+  body {
+    background-color: rgb(241, 7, 241);
+  }
+}
+
+/*# sourceMappingURL=h1.css.map */
